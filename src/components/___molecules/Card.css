@@ -79,6 +79,7 @@ button {
 }
 .paragraph {
   width: 312px;
+  height: 60px;
   color: var(--Additional-text, #6e798c);
   font-family: "Open Sans";
   font-size: 16px;
