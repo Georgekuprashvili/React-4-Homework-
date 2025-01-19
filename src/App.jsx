@@ -1,19 +1,18 @@
 
 import './App.css'
-import Main_container from './components/___organism/Main_container'
-
-
-
-
+import Contanier from './components/___organism/Container'
 
 
 function App() {
 
   return (
     <>
-     <Main_container/>
-     <Main_container/>
-     <Main_container/>
+<Contanier/>
+
+
+
+
+     
 
 
     </>

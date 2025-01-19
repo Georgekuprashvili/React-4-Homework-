@@ -1,0 +1,145 @@
+.container {
+  width: 360px;
+  height: 528px;
+  border-radius: 16px;
+  background: var(--White, #fff);
+}
+.image_cont {
+  position: relative;
+}
+.icon_box {
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.1));
+  position: absolute;
+  top: 16px;
+  right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.section2 {
+  display: flex;
+  width: 312px;
+  justify-content: space-between;
+}
+.icons_cont {
+  display: flex;
+  gap: 5px;
+}
+.photo_box1 {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo_box2 {
+  width: 24px;
+  height: 24px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo_box3 {
+  width: 24px;
+  height: 24px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paragraph_box {
+  display: flex;
+  width: 312px;
+  gap: 43px;
+}
+button {
+  width: 114px;
+  height: 44px;
+  border-radius: 4px;
+  background: var(--Cards-4-action-color, #2ecc71);
+  border: 0;
+}
+.name {
+  color: var(--Heading-text, #081f32);
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.24px;
+}
+.paragraph {
+  width: 312px;
+  color: var(--Additional-text, #6e798c);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.info {
+  color: var(--Cards-4-info-text, #a5adbb);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+.newprice {
+  color: var(--Heading-text, #081f32);
+  font-family: "DM Serif Display";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.oldprice {
+  color: var(--Cards-3-main-button, #f8593b);
+  font-family: "DM Serif Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  text-decoration-line: line-through;
+}
+.btn_txt {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2.52px;
+}
+.footer {
+  width: 312px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 41px;
+}
+.price_box {
+  display: flex;
+  gap: 8px;
+}
+.text_cont {
+  margin-top: 32px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 30px;
+}
+.info_box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
