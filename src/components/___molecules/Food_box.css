@@ -1,0 +1,6 @@
+.food_cont {
+  width: 360px;
+  height: 528px;
+  border-radius: 16px;
+  background: var(--White, #fff);
+}
