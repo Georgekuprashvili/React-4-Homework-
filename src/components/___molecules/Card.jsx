@@ -21,9 +21,9 @@ return(
 <div className="section2">
 <p className="name">{name}</p>
 <div className="icons_cont">
-    <div className="photo_box1"> <img src={photo1}  /> </div>
-    <div className="photo_box2"> <img src={photo2}  /> </div>
-    <div className="photo_box3"> <img src={photo3}  /> </div>
+     <img className="icons" src={photo1}  /> 
+    <img className="icons" src={photo2}  /> 
+     <img className="icons" src={photo3}  /> 
 </div>
     </div>
     
